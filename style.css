@@ -1,0 +1,120 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif; 
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box {
+    background-color: white;
+    width: 350px;
+    height: 525px;
+    border-radius: 15px;
+    margin: 100px auto;
+    text-align: center;
+    display: block;
+    
+}
+.illustration {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.title {
+    color: hsl(223, 47%, 23%);
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 15px;
+}
+.summary {
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+    font-weight: 500;
+    width: 80%;
+    margin: auto;
+    line-height: 175%;
+    padding: 5px 0 10px;
+}
+.plan-box { 
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    height: 75px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.music-note {
+    float: left;
+    margin: auto;
+    height: 35px;
+    padding: 20px;
+
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+    display: block;
+    text-align: left;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+    position: relative;
+    top: 20px;
+}
+.price {
+    color: hsl(224, 23%, 55%);
+    display: block;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0;
+    position: relative;
+    top: 25px;
+
+}
+.change {
+    color: hsl(245, 75%, 52%);
+    float: right;
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 32px 20px;
+}
+
+.change:hover {
+    color: #7280a7;
+    text-decoration: none;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    display: block;
+    margin: 15px auto;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: 0 10px 10px 5px hsl(225, 100%, 98%);
+}
+
+button:hover {
+    background-color: #7280a7;
+}
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
